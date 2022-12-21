@@ -131,5 +131,13 @@ $ git revert anyCommit anOtherCommit
 
 
 
+<br />
+
+
+<a name="reset"></a>
+## 10. reset
+
+Will forget the last commit.
+
 
 
