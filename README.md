@@ -150,3 +150,18 @@ Add a tag to the current commit, or optionaly to a specified commit :
 $ git tag VERSION_1 5ceg36f
 </pre>
 
+
+<br />
+
+
+<a name="log"></a>
+## 12. log
+
+Show history of commits. May be cool with options :
+<pre>
+$ git log --oneline --graph
+</pre>
+Will show one commits by line : sha1 + branch, tag, repo + message
+
+
+
