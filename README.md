@@ -112,6 +112,24 @@ Merge the specified branch into the current one.
 <a name="rebase"></a>
 ## 8. rebase
 
-later...
+Apply commits of current branch ahead of specified one :
+<pre>
+$ git rebase "destination" "source"
+</pre>
+
+
+<br />
+
+
+<a name="revert"></a>
+## 9. revert
+
+Revert commits : if specified commit was a new line, the line will be remove.
+<pre>
+$ git revert anyCommit anOtherCommit
+</pre>
+
+
+
 
 
