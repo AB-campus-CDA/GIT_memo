@@ -91,7 +91,7 @@ Move to the specified commit, or anything that refer to a commit.
 <pre>
 $ git checkout -b branchName someWhere
 </pre>
-Will create a new branch then checkout. SomeWhere is optionnal.
+Will create a new branch then checkout. SomeWhere is optional.
 
 <br />
 
@@ -130,7 +130,6 @@ $ git revert anyCommit anOtherCommit
 </pre>
 
 
-
 <br />
 
 
@@ -140,4 +139,14 @@ $ git revert anyCommit anOtherCommit
 Will forget the last commit.
 
 
+<br />
+
+
+<a name="tag"></a>
+## 11. tag
+
+Add a tag to the current commit, or optionaly to a specified commit :
+<pre>
+$ git tag VERSION_1 5ceg36f
+</pre>
 
