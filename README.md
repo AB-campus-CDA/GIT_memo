@@ -36,7 +36,10 @@ Init the GIT repo localy. That's all.
 <a name="status"></a>
 ## 2. status
 
-Give the local repo state. ?????? 
+Give the local repo state :
+- Compare branch with remote(s)
+- Staged files (ready to be commited)
+- Files with changes that are not staged
 
 
 <br />
