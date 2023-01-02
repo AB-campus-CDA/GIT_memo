@@ -185,4 +185,6 @@ Will disable fast forward default option on merge command.
 
 
 
-Thanks to my mom.
+
+
+De grands pouvoirs impliquent de grandes responsabilités.
