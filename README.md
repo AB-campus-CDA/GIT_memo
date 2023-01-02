@@ -181,9 +181,19 @@ $ git config --global merge.ff false
 Will disable fast forward default option on merge command.
 
 
+<br />
+<br />
 
+## 14. conflits de merge
 
+Un conflit se matérialise par une portion de code modifié différement en local et en remote.
+<br />
+Le gestionnaire ne sait pas quelle version conserver : la distante ou la locale ??
+<br />
+Un IDE permet de résoudre facilement le problème car il affiche en parallèle les portions à évaluer. Au final la portion de code est soit une des 2 versions soit un mix.
 
+<br />
+<br />
 
 
 
