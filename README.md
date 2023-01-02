@@ -182,7 +182,3 @@ Will disable fast forward default option on merge command.
 
 
 
-
-
-
-Thanks to my mom.
