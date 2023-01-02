@@ -19,6 +19,7 @@ Contents
  * [10. reset](#reset)
  * [11. tag](#tag)
  * [12. log](#log)
+ * [13. config](#config)
 
 
 ------------
@@ -164,4 +165,15 @@ $ git log --oneline --graph
 Will show one commits by line : sha1 + branch, tag, repo + message
 
 
+<br />
+
+
+<a name="config"></a>
+## 13. config
+
+Modify GIT config file, add --globale option to make changes to all projects :
+<pre>
+$ git config --global merge.ff false
+</pre>
+Will disable fast forward default option on merge command.
 
