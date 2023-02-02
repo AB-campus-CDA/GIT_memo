@@ -20,6 +20,7 @@ Contents
  * [11. tag](#tag)
  * [12. log](#log)
  * [13. config](#config)
+ * [14. list](#list)
 
 
 ------------
@@ -182,9 +183,21 @@ Will disable fast forward default option on merge command.
 
 
 <br />
+
+<a name="list"></a>
+## 14. list
+
+List a particular kind of file :
+<pre>
+$ git ls-files -m
+</pre>
+The -m option select modified files
+
+<br />
 <br />
 
-## 14. conflits de merge
+
+## 15. conflits de merge
 
 Un conflit se matérialise par une portion de code modifié différement en local et en remote.
 <br />
